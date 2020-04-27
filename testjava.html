@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Alors Alors Alors</title>
+
+</head>
+<body>
+  <input type="text" name="maj" id="chmp1" size="35%" placeholder="saisie le mot">
+  	<script type="text/javascript">
+		var i=0;
+		document.getElementById('chmp1').onkeyup=function(){
+			this.value=this.value.toUpperCase();
+			document.body.bgColor="#ABCDEF"+i;
+			i++;
+		}
+	</script>
+</body>
+</html>
